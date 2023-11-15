@@ -2,6 +2,8 @@
 body {
   display: flex;
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   flex-direction: column;
   font-family: Roboto, sans-serif;
 }
@@ -139,8 +141,8 @@ a {
 .footer {
   display: flex;
   background-color: #1f2937;
-  height: 80px;
   color: #f9faf8;
+  height: 120px;
   justify-content: center;
   align-items: center;
 }
